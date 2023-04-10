@@ -1,0 +1,61 @@
+
+
+root{
+    --blue: #00D7FE;
+    --blue-darken:#0097b3;
+    --purple: #2F1755;
+    --purple-brightness: #5F32A7;
+    --green: #03DCA5;
+    --green-darken: #03AAA8;
+    --grey: #A2A2A2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+*:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+        scroll-behavior: smooth;
+        
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background-color: #e2e1e1;
+    }
+
+    body, input, textarea, button {
+        font-family: 'Ubuntu', sans-serif;
+        }
+    
+    body::-webkit-scrollbar {
+        width: 12px;               
+        }
+
+    body::-webkit-scrollbar-track {
+        background: transparent;       
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: var(--blue);  
+        border-radius: 20px;       
+  
+    }
