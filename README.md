@@ -1,7 +1,7 @@
-#Todo List#
+# Todo List
 This is a simple web application for managing a todo list. The application allows users to add, edit, and delete todos, as well as mark them as completed.
 
-##Getting Started##
+## Getting Started
 To run this application locally, you'll need to have Node.js and npm installed on your machine. Once you have those installed, follow these steps:
 
 Clone this repository to your local machine.
@@ -14,11 +14,11 @@ The main screen of the application displays a list of all todos. To add a new to
 
 When you've completed a task, you can mark it as complete by clicking the checkbox next to the todo. Completed todos will be moved to the bottom of the list and displayed with a line through the text.
 
-##Technologies Used##
+## Technologies Used
 This application was built with React, a popular JavaScript library for building user interfaces. It also uses the Material-UI library for styling and UI components.
 
-##Contributing##
+## Contributing
 Contributions to this project are welcome! If you find a bug or have an idea for a new feature, please open an issue or submit a pull request.
 
-##License##
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
